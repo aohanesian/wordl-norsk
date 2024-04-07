@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    width: 80%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100dvh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.board {
+    max-width: 350px;
+    height: 420px;
+    margin: 0 auto;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+.tile {
+    border: 2px solid lightgray;
+    width: 60px;
+    height: 60px;
+
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.correct {
+    background-color: #6AAA64;
+    border-color: white;
+    color: white;
+}
+
+
+.present {
+    background-color: #C9B458;
+    border-color: white;
+    color: white;
+}
+
+.absent {
+    background-color: #787C7E;
+    border-color: white;
+    color: white;
+}
+
+.answer {
+    margin-bottom: 16px;
+}
+
+.active {
+    border-color: lightblue;
+}
+
+.keyboard-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.keyboard-row {
+    max-width: 468px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.key-tile {
+    border: 1px solid lightgray;
+    width: 34px;
+    height: 40px;
+    margin: 1px;
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.enter-key-tile {
+    border: 1px solid lightgray;
+    width: 70px;
+    height: 40px;
+    margin: 1px;
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
